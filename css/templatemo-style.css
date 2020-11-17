@@ -27,6 +27,11 @@ p {
   float: right;
 }
 
+.page-content2 {
+  width: 90%;
+  float: right;
+}
+
 .content-section {
   padding-top: 80px;
   position: relative;
@@ -71,12 +76,34 @@ p {
   top: 12.5px;
 }
 
+
+.section-heading2 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.section-heading2 h1 {
+  margin-top: 0px;
+  font-size: 32px;
+  color: #232323;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.section-heading2 em {
+  font-style: normal;
+  font-weight: 700;
+  color: #b22222;
+}
+
+
 .white-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #b22222;
+  color: #fff;
   text-transform: capitalize;
-  background-color: #fff;
+  background-color: #b22222;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -87,8 +114,8 @@ p {
 }
 
 .white-button a:hover {
-  background-color: #b22222;
-  color: #fff;
+  background-color: #fff;
+  color: #b22222;
 }
 
 .accent-button a {
@@ -696,7 +723,7 @@ header {
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgba(69,72,154, 0.9);
+  background-color: #b22222;
   display: inline-block;
   height: 44px;
   line-height: 44px;
