@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Entrevista a German Vera Vargas</title>
+    <meta name="description" content="Pagina de Retirados de Bomberos Voluntarios">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/templatemo-style-nos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  </head>
+  <body>
+    <div class="logo_res">
+    <img src="img/logo_b.png">
+    </div>
+    <div class="section-heading2">
+        <h1>Héctor Germán<br><em>Vera Vargas</em></h1>
+  </div>
+  <div class="page-content2">
+      <section id="featured" class="content-section">
+            <div class="section-content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="image">
+                        <img src="img/Vera_1.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="image">
+                        <img src="img/Vera_2.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="image">
+                        <img src="img/Vera_3.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="image">
+                        <img src="img/Vera_4.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+  <section id="featured" class="content-section">
+    <div class="section-content2">
+      <p>Héctor Germán Vera Vargas nació en 1942 en Río Puelo, Chile. A los 6 años cruzó con su familia la cordillera, “caminando, en bote y a caballo”, luego del incendio de una fábrica de mariscos y pescado que dejó sin trabajo a gran parte del pueblo. En Argentina los esperaban su padre y su hermano mayor.</p>
+      <p>En diciembre de 1949 llegaron a Bariloche. “Me acuerdo porque había un paredón que decía `Bienvenido 1950´frente a mi casa”, dijo. Después de un breve paso por El Valle de Río Negro, y con sólo 15 años, Germán comenzó a trabajar en la Carpintería Rocci. Su compañero, Federico Bernabé, era Bombero, y lo invitó a sumarse al servicio voluntario.</p>
+      <p>“Siempre quise ser Bombero, así que cuando tuve la oportunidad, dije sí. Y ya llevo 60 años”. En su larga trayectoria, socorrió en numerosas emergencias, entre ellas algunas que forman parte de la historia de San Carlos de Bariloche, como los incendios del muelle, del aserradero Duport o el Hotel Suizo.</p>
+      <p>“En el Bariloche de antes tuve una adolescencia preciosa. Recuerdo las callecitas de tierra, el olor a manzanilla en la vereda, jugar a la pelota en los campitos, tirarnos al lago desde muelle antes de que se queme”. Pero de la pequeña aldea, extraña principalmente el vínculo con los vecinos: “Ahora subís a un colectivo y no conocés a nadie”. Admite, sin embargo, que gracias a la explosión demográfica de los 70, conoció a Vilma, su compañera desde hace más de 20 años.</p>
+      <p>Germán trabajó en el Mercado Municipal de Villegas y Moreno, y en infraestructura aeronáutica. Fue pintor y mozo. Pero, sobre todo, Bombero (y lo seguirá siendo). Tuvo 7 hijos, más de 20 nietos y 4 bisnietos, que hoy se suman a la misma cantidad de hijos y nietos de Vilma, su actual compañera, a quien conoció tras enviudar en 1995. “Tenemos que alquilar un estadio de fútbol para una juntada familiar”, celebra, admitiendo que la cobijadora casa que habita desde 1976 en Alborada, no puede albergar tamaña descendencia.</p>
+      <p>Por su aporte a la comunidad, su compromiso y labor pionera, el Concejo Municipal distinguió a Héctor Germán Vera Vargas como “Antiguo Poblador”, en el 116º aniversario de San Carlos de Bariloche.</p>
+  </div>
+  <br>
+  <div class="content-video">
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/jJt5OkA4XO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Pueden ver la entrevista en el minuto 12:46 del video.</p>
+</div>
+</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+
+            lastScrollTop = st;
+        }
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+  </body>
+</html>
